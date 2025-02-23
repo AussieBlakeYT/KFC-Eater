@@ -1,0 +1,17 @@
+/* Remove default body background */
+body {
+  background-color: #4e8c3e;  /* Change to whatever you like (Green for example) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden; /* Prevents the page from scrolling */
+}
+
+/* Style the canvas to make it centered and maintain its size */
+#snakeGame {
+  border: 2px solid #000;  /* Optional border around the canvas */
+  background-color: #fff;  /* Set the background color inside the game (optional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  /* Optional shadow for depth */
+}
